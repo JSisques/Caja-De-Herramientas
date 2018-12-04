@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class IntercambiarArrayMitad {
 
 	public static void main(String[] args) {
-		int[] numeros = { 1, 4, 9, 7, 3, 2, 5, 11, 0, 9,7 };
+		int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		int[] arrayAuxiliar = new int[numeros.length];
 
 		int puntoMedio = 0;
