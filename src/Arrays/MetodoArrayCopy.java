@@ -7,6 +7,7 @@ public class MetodoArrayCopy {
 		int[] primes = { 1, 2, 3, 5, 7, 11, 13, 17, 19, 23 };
 		int[] c = new int[primes.length];
 		/*
+		 * ES OBLIGATORIO DIMENSIONAR EL ARRAY DE DESTINO ANTES DE HACER NADA
 		 * Metodo arraycopy(fuente, indice fuente, destino, indice destino, longitud)
 		 * Fuente: Indica el array de donde cogeremos los datos
 		 * Indice fuente: Indica el indice (la posicion) donde empezaremos a coger los datos
