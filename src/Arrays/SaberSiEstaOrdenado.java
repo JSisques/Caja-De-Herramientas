@@ -15,7 +15,25 @@ public class SaberSiEstaOrdenado {
 		test.estaOrdenado(listado1);
 		test.estaOrdenado(listado2);
 		test.estaOrdenado(listado3);
+		
+		test.estaOrdenado2(listado1);
 
+	}
+
+	public boolean estaOrdenado2(int[] array) {
+		boolean isSort = true;
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] < array[i] + 1) {
+				isSort = false;
+			}
+		}
+		
+		if (isSort)
+			System.out.println("El vector está ordenado");
+		else
+
+			System.out.println("El vector NO está ordenado");
+		return isSort;
 	}
 	
 	/**
@@ -33,7 +51,7 @@ public class SaberSiEstaOrdenado {
 		int a = 0;
 		int b = 0;
 
-		for (int i = 0; i < auxiliar.length-1; i++) {
+		for (int i = 0; i <= auxiliar.length-1; i++) {
 			a = array[i];
 			b = auxiliar[i];
 			if (a + 1 != b + 1) {
