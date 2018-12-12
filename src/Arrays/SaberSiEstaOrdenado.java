@@ -2,14 +2,14 @@ package Arrays;
 
 import java.util.*;
 
-public class Ordenacion {
+public class SaberSiEstaOrdenado {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] listado1 = { 6, 2, 3, 1, 4, 5, 7 };
 		int[] listado2 = { 1, 2, 3, 4, 5, 6, 7 };
 		int[] listado3 = { 1, 2, 3, 4, 5, 6, 7,8654,45,345,24,1,13 };
-		Ordenacion test = new Ordenacion();
+		SaberSiEstaOrdenado test = new SaberSiEstaOrdenado();
 		// Implementa una forma de saber si el array está ordenado o no
 		// Almacena el resultado en la variable isSort
 		test.estaOrdenado(listado1);
