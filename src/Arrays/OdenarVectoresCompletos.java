@@ -20,7 +20,7 @@ public class OdenarVectoresCompletos {
 		
 		// Con este algoritmo ordenaremos por completo un array
 		for (int i = 0; i < sueldos.length -1; i++) {
-			for (int f = 0; f < sueldos.length - 1; f++) {
+			for (int f = 0; f < (sueldos.length - 1) - i; f++) {
 				if (sueldos[f] > sueldos[f + 1]) {
 					int aux = sueldos[f];
 					sueldos[f] = sueldos[f + 1];
