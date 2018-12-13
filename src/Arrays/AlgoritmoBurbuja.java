@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class OdenarVectoresCompletos {
+public class AlgoritmoBurbuja {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
