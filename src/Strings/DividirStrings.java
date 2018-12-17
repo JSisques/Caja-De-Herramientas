@@ -40,7 +40,7 @@ public class DividirStrings {
 		 * Creamos un array que en cada posicion tenga el valor que haya antes de un
 		 * espacio En split se indica que elemento va a hacer de separador
 		 * Se pueden usar expresiones como [*|/] para indicar que "cortaria" cuando
-		 * se encontrase un asterisco o un slash
+		 * se encontrase un asterisco o un slash.
 		 */
 		String[] srt = cadena.split(" ");
 
